@@ -518,35 +518,35 @@ section.experiences {
 
 
 
-section.service-details .naccs {
+section.article-details .naccs {
   position: relative;
 }
 
-section.service-details .naccs .menu {
+section.article-details .naccs .menu {
   text-align: center;
 }
 
-section.service-details .naccs .menu div {
+section.article-details .naccs .menu div {
   padding: 15px 30px;
   display: inline-block;
   text-align: center;
   border-radius: 5px !important;
   margin-right: 30px;
-  font-size: 18px;
-  color: #212741;
-  background-color: #fff;
+  font-size: 13px;
+  color:black;
+  background-color: white;
   cursor: pointer;
   vertical-align: middle;
-  font-weight: 600;
+  font-weight: 500;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px rgba(12, 12, 12, 0.1);
 }
 
-section.service-details .naccs .menu div.active {
-  color: #ff511a;
+section.article-details .naccs .menu div.active {
+  color: red;
 }
 
-section.service-details ul.nacc {
+section.article-details ul.nacc {
   margin-top: 50px !important;
   position: relative;
   min-height: 100%;
@@ -555,7 +555,7 @@ section.service-details ul.nacc {
   padding: 0;
 }
 
-section.service-details ul.nacc li {
+section.article-details ul.nacc li {
   background-color: #fff;
   overflow: hidden;
   opacity: 0;
@@ -567,24 +567,32 @@ section.service-details ul.nacc li {
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-section.service-details ul.nacc li .left-image {
+
+section.article-details{
+    background-color: white;
+}
+
+section.article-details ul.nacc li .left-image {
   position: absolute;
   margin-right: 50px;
+  margin-left: 50px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-section.service-details ul.nacc li .left-image img {
+section.article-details ul.nacc li .left-image img {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  width: 400px;
+  height: auto;
 }
 
-section.service-details ul.nacc li .right-content {
+section.article-details ul.nacc li .right-content {
   padding: 50px 50px 50px 0px;
   margin-left: 470px;
 }
 
-section.service-details ul.nacc li .right-content h4 {
+section.article-details ul.nacc li .right-content h4 {
   font-size: 24px;
   color: #212741;
   margin-bottom: 25px;
@@ -593,12 +601,12 @@ section.service-details ul.nacc li .right-content h4 {
   margin-right: 120px;
 }
 
-section.service-details ul.nacc li .right-content ul {
+section.article-details ul.nacc li .right-content ul {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-section.service-details ul.nacc li .right-content span {
+section.article-details ul.nacc li .right-content span {
   display: block;
   font-size: 15px;
   font-weight: 500;
@@ -607,15 +615,15 @@ section.service-details ul.nacc li .right-content span {
   margin-bottom: 12px;
 }
 
-section.service-details ul.nacc li .right-content .last-span {
+section.article-details ul.nacc li .right-content .last-span {
   margin-bottom: 0px;
 }
 
-section.service-details ul.nacc li .right-content p {
+section.article-details ul.nacc li .right-content p {
   margin-bottom: 30px;
 }
 
-section.service-details ul.nacc li.active {
+section.article-details ul.nacc li.active {
   position: relative;
   transition-delay: 0.3s;
   z-index: 2;
